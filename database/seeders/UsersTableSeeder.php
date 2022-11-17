@@ -24,9 +24,9 @@ class UsersTableSeeder extends Seeder
         // Create a super user account.
         $this->createSuperUser([
             'uuid' => $this->generateUuid(),
-            'first_name' => 'Ndirangu',
-            'last_name' => 'Waweru',
-            'email' => 'nwaweru@drash.co.ke',
+            'first_name' => 'Emmanuel',
+            'last_name' => 'Langat',
+            'email' => 'mannuehkipkirui@gmail.com',
             'email_verified_at' => Carbon::now(),
             'password' => Hash::make('password'),
         ]);
@@ -34,9 +34,9 @@ class UsersTableSeeder extends Seeder
         // Create a normal user account.
         $this->createNormalUser([
             'uuid' => $this->generateUuid(),
-            'first_name' => 'Ndirangu',
-            'last_name' => 'Waweru',
-            'email' => 'ndiranguwaweru@gmail.com',
+            'first_name' => 'Manuel',
+            'last_name' => 'Kipkirui',
+            'email' => 'mannuemm@gmail.com',
             'email_verified_at' => Carbon::now(),
             'password' => Hash::make('password'),
         ]);
